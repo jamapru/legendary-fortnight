@@ -1,0 +1,7 @@
+for (i in 1:100) {
+  if (i %% 5){
+    next
+  }
+    print(i*i)
+
+##The for loop function searches for and prints squares of numbers between 1 and 100 that are divisible by 5
